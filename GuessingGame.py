@@ -1,11 +1,11 @@
 import random
 
-print('Guess the number!\n')
+print('Guess the number!')
 
 def play_game():
-    limit = input('Enter the limit: ')
+    limit = input('\nEnter the limit: ')
     randomNumber = random.randint(1,int(limit))
-    print(f'I\'m thinking of a number from 1 and {limit}')
+    print(f'I\'m thinking of a number from 1 and {limit}\n')
     count = 0
     while True:
         count += 1
